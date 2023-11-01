@@ -1,0 +1,67 @@
+.galleria{
+    font-family: Playpen Sans;
+    font-size: 30px;
+    font-weight:bolder;
+    text-align:center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+img {
+    filter: grayscale(100%);
+  }
+.box {
+    margin: 1px;
+    width: 100px;
+    height: 400px;
+}
+.box:hover{
+    transform: scale(1.1);
+    filter: none;
+    display: block;
+    margin: auto;
+    max-width: 700px;
+
+}
+.box-1 {
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/97/39/7f/caption.jpg?w=1200&h=-1&s=1&cx=1920&cy=1080&chk=v1_f31158e4bb953d28a308") ;
+    filter: grayscale(1.1);
+
+}
+.box-2 {
+    background-image: url("https://a.cdn-hotels.com/gdcs/production175/d44/5a1fa58d-a4cb-4739-bff2-7f9298483876.jpg?impolicy=fcrop&w=800&h=533&q=medium");
+    filter: grayscale(1.1);
+}
+.box-3 {
+    background-image: url("https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20230106161700");
+    filter: grayscale(1.1);
+}
+.box-4 {
+    background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/150306143641-beautiful-japan-fuji-shibazakura-festival-yamanashi.jpg?q=w_1800,h_1200,x_0,y_0,c_fill/h_778");
+    filter: grayscale(1.1);
+}
+.box-5 {
+    background-image: url("https://res.klook.com/image/upload/q_85/c_fill,w_750/v1666675116/blog/lzri1nfqstqyzbjpaeqx.jpg");
+    filter: grayscale(1.1);
+}
+.box-6 {
+    background-image: url("https://images.ctfassets.net/bth3mlrehms2/2cCxpmVnFuv9cwMkr2NsqO/0f41647ab438ea7efa23b0d260123a50/Japan_Tokio_Skyline_und_Mt._Fuji.jpg?w=3721&h=2093&fl=progressive&q=50&fm=jpg");
+    filter: grayscale(1.1);
+}
+.box-7 {
+    background-image: url("https://media.cntraveler.com/photos/60341fbad7bd3b27823c9db2/4:3/w_4624,h_3468,c_limit/Tokyo-2021-GettyImages-1208124099.jpg");
+    filter: grayscale(1.1);
+}
+.box-8 {
+    background-image: url("https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2022/06/1.-Spring-in-Ueno-Park.-Blooming-pink-flowers-in-front-of-Benten-Temple-in-the-center-of-Shinobazu-Pond_Credit_Alamy_T04KMT.jpg");
+    filter: grayscale(1.1);
+}
+@media only screen and (max-width:480px){
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
